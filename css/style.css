@@ -261,3 +261,8 @@ p { margin: 0 0 1rem; }
   .services-grid, .projects-grid { grid-template-columns: 1fr; }
   .btn-row .btn { flex: 1 1 100%; text-align: center; }
 }
+.about-quote {
+    margin-top: 24px;
+    font-style: italic;
+    line-height: 1.6;
+}
