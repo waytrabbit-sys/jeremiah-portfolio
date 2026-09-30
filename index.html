@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JEREMIAH | Web Designer &amp; Virtual Assistant</title>
+  <meta name="description" content="Portfolio of Japz, a web designer and virtual assistant creating clean, functional websites and providing reliable online support.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- 1. HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="JEREMIAH, back to top">JEREMIAH</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-accent nav-cta">Hire Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 2. HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-hello">HELLO, I'M JEREMIAH</p>
+          <h1>WEB DESIGNER &amp; VIRTUAL ASSISTANT</h1>
+          <p class="hero-desc">I create clean, functional websites and provide reliable virtual assistance, so you can focus on running your business.</p>
+          <div class="btn-row">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- Replace with: images/profile/japz-profile.png -->
+        <figure class="photo photo-hero img-slot" data-label="Your photo here">
+          <img src="images/profile/japz-profile.png" alt="Portrait of Japz" width="560" height="700">
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT -->
+    <section id="about" class="section section-light">
+      <div class="container about-grid">
+        <!-- Replace with: images/profile/japz-profile.png -->
+        <figure class="photo photo-about img-slot" data-label="Your photo here">
+          <img src="images/profile/japz-profile2.png" alt="Japz working as a web designer and virtual assistant" width="480" height="600" loading="lazy">
+        </figure>
+
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I'm Jeremiah, a web designer and virtual assistant. I help businesses and individuals build a clear, professional presence online and keep their day-to-day online tasks running smoothly.</p>
+          <p>My work focuses on:</p>
+          <ul class="check-list">
+            <li>Website design</li>
+            <li>Website editing</li>
+            <li>Website maintenance</li>
+            <li>Virtual assistance</li>
+            <li>Basic graphic and content support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>What I Do</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8M12 18v3"/></svg>
+            </div>
+            <h3>Web Design</h3>
+            <p>Design and build clean, responsive websites for businesses, portfolios, and personal brands.</p>
+          </article>
+
+          <article class="service">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3z"/><path d="M13.5 6.5l3 3"/></svg>
+            </div>
+            <h3>Website Editing &amp; Maintenance</h3>
+            <p>Update website content, images, layouts, links, and other website elements.</p>
+          </article>
+
+          <article class="service">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M9 3v4M15 3v4M8 12l2.5 2.5L16 9"/></svg>
+            </div>
+            <h3>Virtual Assistance</h3>
+            <p>Provide organized and reliable support for online business tasks.</p>
+          </article>
+
+          <article class="service">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 9"/></svg>
+            </div>
+            <h3>Graphic &amp; Content Support</h3>
+            <p>Assist with basic visual content, product presentation, and website content.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FEATURED PROJECTS
+         To add a project later: copy one <article class="project-card"> block,
+         change the number, name, description, image path and data-project value. -->
+    <section id="projects" class="section section-light">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card" data-project="tagum-hub-appliance">
+            <div class="project-media img-slot" data-label="Tagum Hub Appliance">
+              <img src="images/projects/tagum-hub-appliance.png" alt="Screenshot of the Tagum Hub Appliance website" width="640" height="440" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="project-num">Project 01</span>
+              <h3>Tagum Hub Appliance</h3>
+              <p>A responsive appliance store website created to showcase products, departments, brands, promotions, and store information.</p>
+              <!-- Replace "#" with the live project link (or a details page) -->
+              <a href="https://tagumhubappliance.pages.dev/" class="btn btn-outline btn-small" data-project-link>View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="japz-coffee-house">
+            <div class="project-media img-slot" data-label="Japz Coffee House">
+              <img src="images/projects/japz-coffee-house.png" alt="Screenshot of the Japz Coffee House website" width="640" height="440" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="project-num">Project 02</span>
+              <h3>Japz Coffee House</h3>
+              <p>A modern coffee shop website featuring the brand, menu, gallery, team, and coffee shop experience.</p>
+              <a href="https://japz-coffee-house.pages.dev/" class="btn btn-outline btn-small" data-project-link>View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="personal-portfolio">
+            <div class="project-media img-slot" data-label="Personal Portfolio">
+              <img src="images/projects/personal-portfolio.png" alt="Screenshot of Japz's personal portfolio website" width="640" height="440" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="project-num">Project 03</span>
+              <h3>Personal Portfolio</h3>
+              <p>My personal portfolio website showcasing my skills, services, and selected projects.</p>
+              <a href="#" class="btn btn-outline btn-small" data-project-link>View Project</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Let's Work Together</h2>
+          <p>Have a website to build, update, or maintain? Or need dependable help with online tasks? Send me a message and let's talk about your project.</p>
+
+          <ul class="contact-links">
+            <li>
+              <span>Email</span>
+              <!-- PLACEHOLDER: replace with your real email -->
+              <a href="mailto:jeremiahmaulit6@gmail.com">jeremiahmaulit6@gmail.com</a>
+            </li>
+            <li>
+              <span>Upwork</span>
+              <!-- PLACEHOLDER: replace with your Upwork profile URL -->
+              <a href="#" target="_blank" rel="noopener">Your Upwork profile link</a>
+            </li>
+            <li>
+              <span>FACEBOOK</span>
+              <!-- PLACEHOLDER: add LinkedIn, Facebook, etc. -->
+              <a href="https://www.facebook.com/wayt.rabit/" target="_blank" rel="noopener">FACEBOOK profile
+</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form"
+      id="contact-form"
+      action="https://formspree.io/f/xbglwqvq"
+      method="POST">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 8. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">JEREMIAH</a>
+        <p>Web Designer &amp; Virtual Assistant</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-copy">
+      <p>&copy; 2026 Japz. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
